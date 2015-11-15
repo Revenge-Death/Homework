@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1D89E148-ED04-49EA-83A4-4AD38E9E78C0}</ProjectGuid>
-    <RootNamespace>Tunel</RootNamespace>
+    <ProjectGuid>{0638748A-CE53-4E10-9E79-AAC07F7966B9}</ProjectGuid>
+    <RootNamespace>Range</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
