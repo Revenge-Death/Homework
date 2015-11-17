@@ -35,9 +35,6 @@
     <ClCompile Include="Vector.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="List.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Queue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -45,6 +42,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="BinTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
