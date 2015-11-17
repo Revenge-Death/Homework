@@ -11,8 +11,6 @@ void List<T>::init()
 	trailer = new ListNode<T>; //创建尾哨兵节点
 	header->succ = trailer; header->pred = NULL;
 	trailer->pred = header; trailer->succ = NULL;
-	header->Data = -1;
-	trailer->Data = -1;
 	_size = 0; //记录规模
 }
 
@@ -90,6 +88,16 @@ T List<T>::remove(ListNodePosi(T) p)
 	p->pred->succ = p->succ; p->succ->pred = p->pred; //后继、前驱
 	delete p; _size--; //释放节点，更新规模
 	return e; //返回备份的数值
+}
+
+template<typename T>
+void List<T>::remove(ListNodePosi(T) start, ListNodePosi(T) end, int n)
+{
+		/*ListNodePosi head = p->pred;*/
+		end->succ->pred = start->pred;
+		start->pred->succ = end->succ;
+		/*delete p,  pl;*/ //并没有删除对应空间，这是一个隐患
+		_size -= n;
 }
 
 
