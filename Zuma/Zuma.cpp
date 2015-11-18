@@ -50,7 +50,7 @@ void isClear(ListNode<char>* p)
 
 void RePlay(ListNode<char> *po, long A, char B)
 {
-	ListNode<char> *p = list->find(B,list->size() - A,list->trailerNode());//找到插入位置
+	ListNode<char> *p = list->find(A);//找到插入位置
 	p = list->insertAsPred(p, B);//作为前驱插入
     isClear(p);//在每次插入后判断是否需要消除
 	

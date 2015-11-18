@@ -2,8 +2,7 @@
 using namespace std;
 #include "vector.h"
 
-template<typename T>
-Rank Vector<T>::BinarySearch(T *A, T const & e, Rank lo, Rank hi)
+template<typename T>Rank Vector<T>::BinarySearch(T *A, T const & e, Rank lo, Rank hi)
 {
 	while (hi > lo)
 	{
@@ -13,16 +12,14 @@ Rank Vector<T>::BinarySearch(T *A, T const & e, Rank lo, Rank hi)
 	return --lo;
 }
 
-template<typename T>
-void Vector<T>::merge(T *A, Rank lo, Rank hi)
+template<typename T>void Vector<T>::merge(T *A, Rank lo, Rank hi)
 {
 	if ((hi - lo) < 2)
 		return;
 	merge(A, lo, hi);
 }
 
-template<typename T>
-void Vector<T>::mergeSort(T *A, Rank lo,Rank mi, Rank hi)
+template<typename T>void Vector<T>::mergeSort(T *A, Rank lo,Rank mi, Rank hi)
 {
 	int k = 0, q = 0;
 	int lb = mi - lo;

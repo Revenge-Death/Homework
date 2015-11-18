@@ -17,6 +17,7 @@ void QueryRange(int first, int last, int*A, int n)
 	}
 	printf("%d\n", end - start);
 }
+
 int main()
 {
 	int m, n;

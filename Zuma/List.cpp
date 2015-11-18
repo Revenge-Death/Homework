@@ -3,6 +3,7 @@ using namespace std;
 #include "list.h"
 #include "stdio.h"
 
+
 template <typename T>
 void List<T>::init()
 {
@@ -45,7 +46,7 @@ ListNodePosi(T) List<T>::insertAsPred(ListNodePosi(T) p, T const& e)
 }
 
 template<typename T>
-ListNodePosi(T) List<T>::first() const
+ListNodePosi(T) List<T>::first()
 {
 	return headerNode()->succ;
 }

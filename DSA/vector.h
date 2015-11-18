@@ -61,3 +61,8 @@ public:
 	void mergeSort(T *A, Rank lo, Rank mi, Rank hi); //¹é²¢ÅÅĞòËã·¨
 };
 
+template<typename T>
+inline Rank Vector<T>::insert(Rank r, T const & e)
+{
+	return Rank();
+}
