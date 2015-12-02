@@ -62,7 +62,7 @@ int main()
 	int *A; char *B;
 	ListNode<char> *posi = new ListNode<char>;
 	getline(cin, seq);//输入字符串
-	int len = seq.size();
+	size_t len = seq.size();
 	for (int i = 0; i < len; i++)
 		posi = list->insertAsSucc(list->headerNode(), seq[i]);//一次插入后续节点值
 	scanf("%ld", &n);

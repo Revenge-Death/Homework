@@ -124,13 +124,6 @@
     <ClInclude Include="stack.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="BinTree.cpp" />
-    <ClCompile Include="List.cpp" />
-    <ClCompile Include="Queue.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="Vector.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
