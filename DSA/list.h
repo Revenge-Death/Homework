@@ -33,6 +33,7 @@ public:
 	ListNodePosi(T) trailerNode() const { return trailer; }
 	ListNodePosi(T) first();
     ListNodePosi(T) last() const;
+	ListNodePosi(T) search(T const& e, int n, ListNodePosi(T) p) const; //有序区间查找
 
 	//可写接口
 	ListNodePosi(T) insertAsFirst(T const& e); //将e当作首节点插入
@@ -41,6 +42,7 @@ public:
 	ListNodePosi(T) insertAsPred(ListNodePosi(T) p, T const& e); //将e当作p的前驱插入
 	T remove(ListNodePosi(T) p); //删除合法位置p处[将p作为参数传入前先保证其合法]的节点,返回被删除节点
 	void remove(ListNodePosi(T) start, ListNodePosi(T) end,int n);//区间删除
+	void insertionSort(ListNodePosi(T), int); //对从p开始连续的n个节点插入排序
 	
 };
 #pragma once
@@ -142,4 +144,14 @@ template<typename T>void List<T>::remove(ListNodePosi(T) start, ListNodePosi(T) 
 	start->pred->succ = end->succ;
 	/*delete p,  pl;*/ //并没有删除对应空间，这是一个隐患
 	_size -= n;
+}
+
+template<typename T>
+inline void List<T>::insertionSort(ListNodePosi(T), int)
+{
+}
+
+template<typename T>
+inline void List<T>::ReverseK(ListNodePosi(T), int k)
+{
 }
