@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse", "Reverse\Reverse.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pop", "PopSeq\PopSeq.vcxproj", "{798320B5-E4AD-4EF4-947A-C7E08CAEC6CB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuickSort", "QuickSort\QuickSort.vcxproj", "{B93A658E-17A5-475F-8053-8B4E161BC99F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{798320B5-E4AD-4EF4-947A-C7E08CAEC6CB}.Release|x64.Build.0 = Release|x64
 		{798320B5-E4AD-4EF4-947A-C7E08CAEC6CB}.Release|x86.ActiveCfg = Release|Win32
 		{798320B5-E4AD-4EF4-947A-C7E08CAEC6CB}.Release|x86.Build.0 = Release|Win32
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Debug|x64.ActiveCfg = Debug|x64
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Debug|x64.Build.0 = Debug|x64
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Debug|x86.Build.0 = Debug|Win32
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Release|x64.ActiveCfg = Release|x64
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Release|x64.Build.0 = Release|x64
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Release|x86.ActiveCfg = Release|Win32
+		{B93A658E-17A5-475F-8053-8B4E161BC99F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
